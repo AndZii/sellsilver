@@ -1,0 +1,20 @@
+%h1.page-header
+  We Buy:
+  %br
+  %small Silver Coins | Silver Jewelry | Silver
+/ First Blog Post
+%h2
+  %span 
+    = @post.title
+%p.lead
+  %span 
+    = @post.second_title
+%hr/
+%img.img-responsive{:alt => "", :src => "/ph.jpg"}/
+%hr/
+%p.description-wrapper 
+  = @post.description
+%hr    
+%p 
+  = @post.post_body    
+%hr
