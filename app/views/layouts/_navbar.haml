@@ -17,7 +17,7 @@
         %li
           = link_to "About", about_path
         %li
-          =link_to "Contacts", contacts_path
+          = link_to "Contacts", contacts_path
       %ul.footer-icons.nav.navbar-nav.navbar-right.hidden-xs
         %li
           %a{:href => "https://www.facebook.com/webuygoodsnyc"}
@@ -35,3 +35,9 @@
   / /.container
 %a#phone-button-wrapper.visible-xs{:href => "tel:+1-718-846-1600"}
   %i.fa.fa-phone.fa-2x
+.flash-wrapper.col-lg-8.col-lg-offset-2
+  - flash.each do |key, value|
+    %div{:class => "#{key}-wrapper"}
+      = value 
+  
+  

@@ -12570,6 +12570,43 @@ body {
 }
 
 /* line 26, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+.flash-wrapper {
+  text-align: center;
+}
+/* line 28, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+.flash-wrapper .error-wrapper {
+  color: #F44336;
+  border: 1px solid;
+  width: 300px;
+}
+/* line 34, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+.flash-wrapper .success-wrapper {
+  color: #4CAF50;
+  border: 1px solid;
+  width: 300px;
+}
+
+/* line 41, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+#phone-button-wrapper {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #FF7043;
+  border-radius: 100px;
+  z-index: 100;
+  line-height: 70px;
+  text-align: center;
+  color: white !important;
+}
+
+/* line 55, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+p.description-wrapper {
+  font-size: 18px !important;
+}
+
+/* line 59, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed {
   background-color: #292c2f;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -12581,7 +12618,7 @@ body {
   margin-top: 80px;
 }
 
-/* line 40, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 73, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right {
@@ -12590,33 +12627,33 @@ body {
 }
 
 /* Footer left */
-/* line 47, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 80, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-left {
   width: 40%;
 }
 
 /* The company logo */
-/* line 53, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 86, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed h3 {
   color: #ffffff;
   font: normal 36px 'Cookie', cursive;
   margin: 0;
 }
 
-/* line 59, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 92, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed h3 span {
   color: #5383d3;
 }
 
 /* Footer links */
-/* line 65, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 98, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-links {
   color: #ffffff;
   margin: 20px 0 12px;
   padding: 0;
 }
 
-/* line 71, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 104, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-links a {
   display: inline-block;
   line-height: 1.8;
@@ -12624,7 +12661,7 @@ body {
   color: inherit;
 }
 
-/* line 78, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 111, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-company-name {
   color: #8f9296;
   font-size: 14px;
@@ -12633,12 +12670,12 @@ body {
 }
 
 /* Footer Center */
-/* line 87, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 120, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-center {
   width: 35%;
 }
 
-/* line 91, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 124, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-center i {
   background-color: #33383b;
   color: #ffffff;
@@ -12652,13 +12689,13 @@ body {
   vertical-align: middle;
 }
 
-/* line 104, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 137, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
 }
 
-/* line 109, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 142, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-center p {
   display: inline-block;
   color: #ffffff;
@@ -12666,7 +12703,7 @@ body {
   margin: 0;
 }
 
-/* line 116, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 149, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-center p span {
   display: block;
   font-weight: normal;
@@ -12674,19 +12711,19 @@ body {
   line-height: 2;
 }
 
-/* line 123, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 156, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-center p a {
   color: #5383d3;
   text-decoration: none;
 }
 
 /* Footer Right */
-/* line 131, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 164, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-right {
   width: 20%;
 }
 
-/* line 135, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 168, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-company-about {
   line-height: 20px;
   color: #92999f;
@@ -12695,7 +12732,7 @@ body {
   margin: 0;
 }
 
-/* line 143, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 176, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-company-about span {
   display: block;
   color: #ffffff;
@@ -12704,12 +12741,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 151, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 184, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-icons {
   margin-top: 25px;
 }
 
-/* line 155, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+/* line 188, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
 .footer-distributed .footer-icons a {
   display: inline-block;
   width: 35px;
@@ -12727,12 +12764,12 @@ body {
 
 /* If you don't want the footer to be responsive, remove these media queries */
 @media (max-width: 880px) {
-  /* line 176, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+  /* line 209, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
   .footer-distributed {
     font: bold 14px sans-serif;
   }
 
-  /* line 182, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+  /* line 215, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
@@ -12742,7 +12779,7 @@ body {
     text-align: center;
   }
 
-  /* line 189, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
+  /* line 222, /Users/andrey/projects/sellSilver/app/assets/stylesheets/application.scss */
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
