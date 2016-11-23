@@ -5,6 +5,7 @@ class MainController < ApplicationController
   def create_message_obj
     @message = Message.new
     @posts = Post.all.first(5)
+    @title = "Sell My Silver In NYC | Queens| Top Dollar For Your Silver"  
   end      
     
   def contacts
@@ -20,10 +21,10 @@ class MainController < ApplicationController
   end      
     
   def index
-      @title = "Sell Silver"
   end
     
   def show_post
-     @post = Post.where(["second_title = ?", params[:second_title]]).first   
+     @post = Post.where(["second_title = ?", params[:second_title]]).first 
+     @title = @post.url
   end      
 end

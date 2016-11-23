@@ -13,10 +13,12 @@
     %span 
       = post.second_title
   %hr/
-  %img.img-responsive{:alt => "", :src => "/ph.jpg"}/
+  %img.img-responsive{:alt => "", :src => "/#{post.img_url}"}/
   %hr/
   %p 
     = post.description
   = link_to "Read More", show_post_path(post.second_title) ,class: "btn btn-primary"
 %hr
+%p
+  = "*If your have not found your item(s) or brand(s) here, don’t worry, just give us a call, we will do our best to help you. We Always Pay More!"
   

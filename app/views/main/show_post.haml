@@ -10,7 +10,7 @@
   %span 
     = @post.second_title
 %hr/
-%img.img-responsive{:alt => "", :src => "/ph.jpg"}/
+%img.img-responsive{:alt => "", :src => "/#{@post.img_url}"}/
 %hr/
 %p.description-wrapper 
   = @post.description

@@ -8,7 +8,7 @@
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      %a.navbar-brand{:href => "/"} Sell Silver NYC
+      %a.navbar-brand{:href => "/"} SellMySilverNYC.com
     / Collect the nav links, forms, and other content for toggling
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav
@@ -18,6 +18,19 @@
           = link_to "About", about_path
         %li
           =link_to "Contacts", contacts_path
+      %ul.footer-icons.nav.navbar-nav.navbar-right.hidden-xs
+        %li
+          %a{:href => "https://www.facebook.com/webuygoodsnyc"}
+            %i.fa.fa-facebook
+        %li  
+          %a{:href => "https://plus.google.com/106507584776418285314/about"}
+            %i.fa.fa-google-plus
+        %li
+          %a{:href => "https://www.instagram.com/webuygoodsnyc/"}
+            %i.fa.fa-instagram
+        %li
+          %a{:href => "https://twitter.com/webuygoodsnyc"}
+            %i.fa.fa-twitter
     / /.navbar-collapse
   / /.container
 %a#phone-button-wrapper.visible-xs{:href => "tel:+1-718-846-1600"}
