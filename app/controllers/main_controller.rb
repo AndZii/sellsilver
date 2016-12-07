@@ -35,15 +35,7 @@ class MainController < ApplicationController
   end      
     
   def messages
-    if(params[:password] == "1014love" && params[:login] == "supermike")  
-      if Message.all.size > 0   
-        render :json => Message.all
-      else
-        redirect_to root_path
-      end    
-    else
-      render :json => {"Error" => "Wrong Params", "msg" => "access denied"}
-    end    
+        render :json => {"messages" => Message.all}
   end      
     
   def index

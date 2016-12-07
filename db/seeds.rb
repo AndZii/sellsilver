@@ -20,11 +20,11 @@ Post.create(
     #
     url: "silver-buyer-of-nyc-queens",
     #
-    description: "SellMySilverNYC.com is one of the largest silver buyers in the city. We always pay more, highest payouts garanteed. Whether it a single ring, few coins or huge jewelry collection. We pay top cash on the spot. Most save and gainful way to get your top dollar is to call us right now. (You also can leave a message, and our stuff will contact you ASAP).",
+    description: "Sell My Silver NYC is one of New York City’s largest and leading silver buyers. We buy all kinds of silver items with guaranteed payouts ranked as the highest in the industry. Our experienced and well qualified staff will appraise your silver jewelry, silver bullion, silver flatware and more at top-tier dollar amounts and give you cash for your silver, on the spot. We buy silver at any quantity, be it a silver ring, a few silver coins or an entire silver jewelry collection. We pay a premium for your silver on the spot and treat every transaction with utmost care and security so you can rest assured, you are getting top dollar on your sale. For a free appraisal, please fill out the form below or call us right now at (718) 816-1800 for an appointment to a no-cost silver appraisal at our Manhattan office..",
     #
     img_url: "ph.jpg",
     #
-    post_body: " ")
+    post_body: "We will buy your used, broken or unwanted: silver coins, silver chains, silver bracelets, silver necklaces, silver rings, silver earrings, silver links, silver medallions, silver antiques, silver coffee and tea sets, silver flatware & holloware, sterling silver settings, antique silver estate servers, silver souvenir spoons, antique vintage sterling silver, silver candelabra, silver candlesticks, silver bullion rounds, silver bullion bars, silver bullion ingots, fine silver, junk silver etc.")
 
 Post.create(
     #
@@ -34,9 +34,9 @@ Post.create(
     #
     url: "Sell Sterling Silver In NYC | Queens",
     #
-    description: "Sterling silver is an alloy of silver containing 92.5% by weight of silver and 7.5% by weight of other metals, usually copper. The sterling silver standard has a minimum millesimal fineness of 925.(Wikipedia). In America, articles marked sterling must contain a minimum of 925 parts silver for every 1000 parts of material. Expressed another way, items must be 92.5 percent silver and no more than 7.5 percent base metal. This ratio is called the 'sterling standard' and has been used in the US since the mid-1860s.",
+    description: "Sterling silver and silver are often described as the same thing. Sterling silver is only an alloy containing 92.5% of fine silver with the remaining 7.5 to 8% from other metals like copper, steel or iron added to stabilize its shape. Because of the high percentage of silver in “pure silver”, it is too soft and cannot hold its shape when making various utensils like forks, knives, spoons, coffee sets and many others. Fine silver is composed of 99.9% pure silver and is used only in silver bullion bars, bullion rounds, and fine jewelry. At Sell My Silver NYC, we buy all types and grades of silver.",
     #
-    img_url: "ph-1.jpg",
+    img_url: "ph-3.jpg",
     #
     post_body: "We buy used, Broken or Unwanted Silver Coins, Silver Chains, Silver Bracelets, Silver Necklaces, Silver Rings,  Silver Earrings, Silver Links etc. Call us right now, and we will give you full information.")
 
@@ -54,6 +54,14 @@ Post.create(
     #
     post_body: "We buy: Silver Forks, Silver Knifes, Silver Trays etc. Almost all brands, like: Dominick & Haff, Durgin, Richard Dimes, Reed & Barton,Watson-Wallace, Watson, Weidlich, Westmorland, Whiting div. of Gorham, W&D Graff etc. We always pay more, call us right now.")
 
+
+    Post.create(
+        title: "Sell Silver Coins in NYC | Queens",
+        second_title: "Silver Coins Buyer | Top Dollar Paid For Silver In NYC",
+        url: "sell-selver-coins-nyc-queens",
+        description: "How are silver coins valued? The best way to calculate the value of junk silver coins and other silver pieces is to determine the amount and grade of fine silver each piece contains. Then we figure out the intrinsic value by checking current market values of the precious metal. In addition, a number of other factors are carefully taken into consideration during appraisal to get you the highest possible value for your silver—age, rarity, condition, collectability, quantity and more.",
+        img_url: "ph-1.jpg",
+        post_body: "Junk Silver are coins minted by the U.S. government before 1965 that contain silver. The term “junk” refers to any silver piece of currency that is still in acceptable condition. While not entirely made of pure silver, junk coins can contain a silver composition ranging between 35% and 90%. These silver coins include: 1916 - 1945 Mercury Dimes, 1945 - 1964 Roosevelt Dimes, 1932 - 1964 Washington Quarters, 1916 - 1947 Walking Liberty Half Dollars, 1948 - 1963 Franklin Half Dollars, 1964 Kennedy Half Dollars, 1878 - 1921 Morgan Dollars, 1921 - 1935 Peach Dollars.")
 
 
 
