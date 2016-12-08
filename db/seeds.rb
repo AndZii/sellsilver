@@ -20,7 +20,7 @@ Post.create(
     #
     url: "silver-buyer-of-nyc-queens",
     #
-    description: "Sell My Silver NYC is one of New York City’s largest and leading silver buyers. We buy all kinds of silver items with guaranteed payouts ranked as the highest in the industry. Our experienced and well qualified staff will appraise your silver jewelry, silver bullion, silver flatware and more at top-tier dollar amounts and give you cash for your silver, on the spot. We buy silver at any quantity, be it a silver ring, a few silver coins or an entire silver jewelry collection. We pay a premium for your silver on the spot and treat every transaction with utmost care and security so you can rest assured, you are getting top dollar on your sale. For a free appraisal, please fill out the form below or call us right now at (718) 816-1800 for an appointment to a no-cost silver appraisal at our Manhattan office..",
+    description: "Sell My Silver NYC is one of New York City’s largest and leading silver buyers. We buy all kinds of silver items with guaranteed payouts ranked as the highest in the industry. Our experienced and well qualified staff will appraise your silver jewelry, silver bullion, silver flatware and more at top-tier dollar amounts and give you cash for your silver, on the spot. We buy silver at any quantity, be it a silver ring, a few silver coins or an entire silver jewelry collection. We pay a premium for your silver on the spot and treat every transaction with utmost care and security so you can rest assured, you are getting top dollar on your sale. For a free appraisal, please fill out the form below or call us right now at (718) 846-1600 for an appointment to a no-cost silver appraisal at our Manhattan office..",
     #
     img_url: "ph.jpg",
     #
