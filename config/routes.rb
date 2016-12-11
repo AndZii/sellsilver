@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   get 'info-:second_title' => 'main#show_post', as: :show_post
   get 'about-sell-silver-nyc' => 'main#about', as: :about    
   post '/message' => 'main#message' , as: :message  
-  get 'messages' => 'main#messages'    
+  get 'messages' => 'main#messages'
+  get 'how-do-we-buy-sylver-in-nyc' => 'main#how_it_works', as: :how_it_works    
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

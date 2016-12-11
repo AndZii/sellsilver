@@ -12,8 +12,10 @@ class MainController < ApplicationController
       
   end
       
-  def about
-      
+  def about  
+  end      
+    
+  def how_it_works 
   end      
     
   def message

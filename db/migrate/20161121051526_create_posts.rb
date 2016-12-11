@@ -6,7 +6,8 @@ class CreatePosts < ActiveRecord::Migration
       t.text   :second_title
       t.text   :description
       t.text   :post_body
-      t.string :img_url    
+      t.string :img_url  
+      t.string :img_alt    
       t.timestamps null: false
     end
   end

@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 20161121053024) do
     t.text     "description"
     t.text     "post_body"
     t.string   "img_url"
+    t.string   "img_alt"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
   end
