@@ -13,7 +13,7 @@
     %span 
       = post.second_title
   %hr/
-  %img.img-responsive{:alt => "", :src => "/#{post.img_url}"}/
+  %img.img-responsive{:alt => "#{post.img_alt}", :src => "/#{post.img_url}"}/
   %hr/
   %p 
     = post.description
